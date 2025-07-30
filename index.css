@@ -1,0 +1,120 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(to right, #0f2027, #3e5a63, #31434b);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #FEEBF6;
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 380px;
+      background: #1f4037;
+      background: linear-gradient(to right, #4ca1af, #2c3e50);
+      border-radius: 15px;
+      padding: 30px 25px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    }
+
+    .heading h1 {
+      font-size: 1.8em;
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-size: 1rem;
+      color: #f0f0f0;
+    }
+
+    input[type="date"] {
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      background-color: #fff;
+      color: #333;
+    }
+
+    .btn {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .btn button {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      background-color: #5a8872;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn button:hover {
+      background-color: #46695d;
+    }
+
+    .btn i {
+      margin-right: 5px;
+    }
+
+    .heading-calculate,
+    .calculate_date_of_borth {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      gap: 10px;
+    }
+
+    .heading-calculate span,
+    .calculate_date_of_borth p {
+      flex: 1;
+      text-align: center;
+    }
+
+    .calculate_date_of_borth p {
+      background-color: #ffffff1a;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    @media screen and (max-width: 600px) {
+      .wrapper {
+        padding: 20px 15px;
+      }
+
+      .heading h1 {
+        font-size: 1.4em;
+      }
+
+      .btn button {
+        font-size: 0.9rem;
+        padding: 10px;
+      }
+    }

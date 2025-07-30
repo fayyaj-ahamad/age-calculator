@@ -1,0 +1,45 @@
+<!-- <!DOCTYPE html> -->
+<html>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+     <div class="wrapper">
+    <div class="heading">
+      <h1>Let's Find Your Age!</h1>
+    </div>
+    <div class="form-group">
+      <label for="date_of_birth">Date of Birth</label>
+      <input type="date" id="date_of_birth">
+    </div>
+    <div class="form-group">
+      <label for="current-date">Current Date</label>
+      <input type="date" id="current-date" readonly>
+    </div>
+    <div class="btn">
+      <button id="calculate"><i class="ri-calculator-line"></i>Calculate</button>
+      <button id="resetAge"><i class="ri-loop-left-fill"></i>Reset</button>
+    </div>
+    <div class="heading-calculate">
+      <span>Years</span>
+      <span>Months</span>
+      <span>Days</span>
+    </div>
+    <div class="calculate_date_of_borth">
+      <p id="year">Year</p>
+      <p id="month">Month</p>
+      <p id="day">Day</p>
+    </div>
+  </div>
+
+</body>
+<script src="index.js"></script>
+</html>
